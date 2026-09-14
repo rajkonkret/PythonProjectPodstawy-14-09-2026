@@ -41,3 +41,23 @@ print(sys.float_info)
 # typ logiczny
 # prawda fałsz
 # True, False
+
+czy_znasz_pythona = True
+print(czy_znasz_pythona)  # True
+print(type(czy_znasz_pythona))  # <class 'bool'> boolean, logiczny
+
+print(int(True))  # 1
+print(int(False))  # 0
+
+# bool() - rzutowanie na typ logiczny
+print(bool(1))  # True
+print(bool(0))  # False
+
+print(bool(100))  # True
+print(bool(-200))  # True
+
+print(bool(""))  # False
+
+print(bool(" "))  # True
+
+print(bool("0"))  # True
