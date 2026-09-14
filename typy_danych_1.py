@@ -61,3 +61,6 @@ print(bool(""))  # False
 print(bool(" "))  # True
 
 print(bool("0"))  # True
+
+# None - nie wiem, stan nieokreślony, odpowiednik null
+print((bool(None)))  # False
