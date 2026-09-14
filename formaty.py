@@ -17,10 +17,21 @@ print("Witaj %s, masz teraz %d lat." % (user, wiek))
 print(f"Witaj {user}, masz teraz {wiek} lat.")
 # Witaj Tomek, masz teraz 39 lat.
 
-print("Używamy wersji Pythona %i" % 3) # Używamy wersji Pythona 3
-print("Używamy wersji Pythona %f" % 3) # Używamy wersji Pythona 3.000000
-print("Używamy wersji Pythona %.2f" % 3.9) # Używamy wersji Pythona 3.90
-print("Używamy wersji Pythona %.1f" % 3.9) # Używamy wersji Pythona 3.9
-print("Używamy wersji Pythona %.0f" % 3.9) # Używamy wersji Pythona 4
-print("Używamy wersji Pythona %.f" % 3.9) # Używamy wersji Pythona 4
+print("Używamy wersji Pythona %i" % 3)  # Używamy wersji Pythona 3
+print("Używamy wersji Pythona %f" % 3)  # Używamy wersji Pythona 3.000000
+print("Używamy wersji Pythona %.2f" % 3.9)  # Używamy wersji Pythona 3.90
+print("Używamy wersji Pythona %.1f" % 3.9)  # Używamy wersji Pythona 3.9
+print("Używamy wersji Pythona %.0f" % 3.9)  # Używamy wersji Pythona 4
+print("Używamy wersji Pythona %.f" % 3.9)  # Używamy wersji Pythona 4
 
+print(f"Używamy wersji pythona {wersja}")  # Używamy wersji pythona 3.900001
+print(f"Używamy wersji pythona {wersja:.2f}")  # Używamy wersji pythona 3.90
+print(f"Używamy wersji pythona {wersja:.1f}")  # Używamy wersji pythona 3.9
+print(f"Używamy wersji pythona {wersja:.0f}")  # Używamy wersji pythona 4
+
+print(wersja)  # 3.900001 zmienna się nie zmieniła
+
+print(f"{user:<10}")  # "Tomek     "
+print(f"{user:>20}")  # "               Tomek"
+print(f"{user:^15}")  # "     Tomek     "
+print(f"{user:.^15}")  # ".....Tomek....."
