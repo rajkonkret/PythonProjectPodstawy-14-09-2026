@@ -16,3 +16,11 @@ print("Witaj %s, masz teraz %d lat." % (user, wiek))
 # fstringiem
 print(f"Witaj {user}, masz teraz {wiek} lat.")
 # Witaj Tomek, masz teraz 39 lat.
+
+print("Używamy wersji Pythona %i" % 3) # Używamy wersji Pythona 3
+print("Używamy wersji Pythona %f" % 3) # Używamy wersji Pythona 3.000000
+print("Używamy wersji Pythona %.2f" % 3.9) # Używamy wersji Pythona 3.90
+print("Używamy wersji Pythona %.1f" % 3.9) # Używamy wersji Pythona 3.9
+print("Używamy wersji Pythona %.0f" % 3.9) # Używamy wersji Pythona 4
+print("Używamy wersji Pythona %.f" % 3.9) # Używamy wersji Pythona 4
+
