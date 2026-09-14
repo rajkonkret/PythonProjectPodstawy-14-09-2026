@@ -31,5 +31,10 @@ print(tekst[6])  # Ś
 print(tekst.index("Ś"))  # 6
 print(tekst.index("e"))  # 9, pierwsza od lewej
 
-print(tekst.count("e")) # wystepuje 2 razy
+print(tekst.count("e"))  # wystepuje 2 razy
 
+print(len(tekst))  # długość 13 znaków
+
+print(tekst.count("j", 0, 4))  # od pierwszego do czwartego -> 0123, z prawej niewłącznie
+
+print(tekst.removesuffix("Świecie"))  # "Witaj "
