@@ -23,4 +23,24 @@ print("Nazywam się Radek")
 print("Dalszy ciąg programu")
 # ctrl alt l - formatowanie kodu
 
+print(type("Radek"))  # <class 'str'> - tekstowy
 
+print("39")
+print(type("39"))
+print("39" + "14")  # 3914 łaczenie tekstów , konkatenacja
+
+print(39)
+print(type(39))  # <class 'int'> - liczby calkowite
+
+print(39 + 14)  # 53
+
+# rzutowanie
+print(type(int("39")))  # <class 'int'>
+print(int("39") + int("56"))  # 95
+
+print("Radek_" + str(1))  # Radek_1
+
+# print(int("A")) # ValueError: invalid literal for int() with base 10: 'A'
+
+print(5 * "4")  # 44444
+print(5 * 4)  # 20
