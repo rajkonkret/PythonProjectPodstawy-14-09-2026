@@ -38,3 +38,9 @@ print(len(tekst))  # długość 13 znaków
 print(tekst.count("j", 0, 4))  # od pierwszego do czwartego -> 0123, z prawej niewłącznie
 
 print(tekst.removesuffix("Świecie"))  # "Witaj "
+
+# strip() - usuwanie białych znaków, wiodących, kończących spacji
+print(tekst.removesuffix("Świecie").strip())  # "Witaj"
+
+# slicowanie
+print(tekst[3:]) # "aj Świecie" do ostatniego włacznie
