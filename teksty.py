@@ -42,5 +42,21 @@ print(tekst.removesuffix("Świecie"))  # "Witaj "
 # strip() - usuwanie białych znaków, wiodących, kończących spacji
 print(tekst.removesuffix("Świecie").strip())  # "Witaj"
 
-# slicowanie
-print(tekst[3:]) # "aj Świecie" do ostatniego włacznie
+# slicowanie Witaj Świecie
+print(tekst[3:])  # "aj Świecie" do ostatniego włacznie
+
+imie = "Radek"
+
+# Mam na imię: ...
+print("Mam na imię:" + str(imie))  # Mam na imię:Radek
+print('Mam na imie:', imie)  # Mam na imie: Radek
+# sep
+# string inserted between values, default a space.
+# end
+# string appended after the last value, default a newline.
+
+print("Mam na imię", imie, sep="ooo")  # Mam na imięoooRadek
+
+# f-string, wstrzykiwanie wartości zmiennej do tekstu
+tekst_format = f"Mam na imię {imie}."
+print(tekst_format) # Mam na imię Radek.
