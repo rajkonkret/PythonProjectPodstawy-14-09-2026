@@ -44,3 +44,16 @@ print("Radek_" + str(1))  # Radek_1
 
 print(5 * "4")  # 44444
 print(5 * 4)  # 20
+
+# zmienna - pudełko na dane
+# typowanie dynamiczne
+
+name = "Radek"
+print(name)  # Radek
+print(type(name))  # <class 'str'>
+
+name = 67
+print(name)
+print(type(name))
+# 67
+# <class 'int'>
