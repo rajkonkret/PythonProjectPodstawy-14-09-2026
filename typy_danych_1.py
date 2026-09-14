@@ -100,3 +100,11 @@ print(f"{a= }")  # a= 6
 
 print(f"Porównanie {a} == {b} = {a == b}")  # Porównanie 6 == 8 = False czy równe
 print(f"Porównanie {a} != {b} = {a != b}")  # Porównanie 6 != 8 = True czy różne
+
+a = "1"
+b = 1
+print(a == b)  # False
+a = 1.0
+print(a == b)  # True
+print((0.2 + 0.7) == 0.9)  # False
+print(round((0.2 + 0.7), 1) == 0.9)  # True
