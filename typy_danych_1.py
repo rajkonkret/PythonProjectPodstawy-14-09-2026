@@ -20,3 +20,10 @@ print(len(str(wiek ** rok)))  # 3388
 
 print(54 - 5 * 43 + 4 / 2 + 4 / 2)  # -157.0
 print(54 - 5 * 43 + 4 / (2 + 4 / 2))  # -160.0
+
+# float - błąd zaokrąglenia
+print(0.2 + 0.8)  # 1.0
+print(0.2 + 0.7)  # 0.8999999999999999
+# For example, in a floating-point arithmetic with five base-ten digits,
+# the sum 12.345 + 1.0001 = 13.3451 might be rounded to 13.345
+# decimal - pozwala bezpiecznie pracowac z zaokrągleniami
