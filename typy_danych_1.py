@@ -64,3 +64,22 @@ print(bool("0"))  # True
 
 # None - nie wiem, stan nieokreślony, odpowiednik null
 print(bool(None))  # False
+
+# operacje logiczne
+print(40 * "-")
+
+# and  - i
+print(True and True)  # True
+print(True and False)  # False
+
+print(40 * "-")
+
+# or - lub
+print(True or True)
+print(True or False)
+# ----------------------------------------
+# True
+# True
+
+# not negacja
+print(not True)  # False
