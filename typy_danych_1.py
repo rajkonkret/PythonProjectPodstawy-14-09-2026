@@ -83,3 +83,20 @@ print(True or False)
 
 # not negacja
 print(not True)  # False
+
+# porównanie
+
+a = 6
+b = 8
+
+print(f"Porównanie {a} > {b} = {a > b}")  # Porównanie 6 > 8 = False
+print(f"Porównanie {a} < {b} = {a < b}")  # Porównanie 6 < 8 = True
+print(f"Porównanie {a} >= {b} = {a >= b}")  # Porównanie 6 >= 8 = False
+print(f"Porównanie {a} <= {b} = {a <= b}")  # Porównanie 6 <= 8 = True
+
+print(f"Porównanie { a <= b = }")  # Porównanie  a <= b = True
+print(f"a= {a}")  # a= 6
+print(f"{a= }")  # a= 6
+
+print(f"Porównanie {a} == {b} = {a == b}")  # Porównanie 6 == 8 = False czy równe
+print(f"Porównanie {a} != {b} = {a != b}")  # Porównanie 6 != 8 = True czy różne
