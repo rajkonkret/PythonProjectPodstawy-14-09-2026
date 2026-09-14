@@ -72,3 +72,16 @@ print(tekst_format)
 
 starszy = "Witaj %s"  # %s - string
 print(starszy % imie)  # Witaj Radek
+
+print("""
+    Witaj
+Radek.
+""")
+
+# "    Witaj
+# Radek."
+
+
+"""
+Komentarz
+wielolinijkowy (docstring) """
