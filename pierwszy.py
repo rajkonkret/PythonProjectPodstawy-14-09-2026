@@ -58,3 +58,9 @@ print(type(name))
 # 67
 # <class 'int'>
 
+# podpowiedzi typu
+name: str = "Radek"
+print(name)
+
+name = 90
+print(name)
