@@ -59,7 +59,7 @@ print("Mam na imię", imie, sep="ooo")  # Mam na imięoooRadek
 
 # f-string, wstrzykiwanie wartości zmiennej do tekstu
 tekst_format = f"Mam na imię {imie}."
-print(tekst_format) # Mam na imię Radek.
+print(tekst_format)  # Mam na imię Radek.
 
 tekst_format = f"\tMam na imię {imie}.\n i lubię pythona.\b"
 print(tekst_format)
@@ -69,3 +69,6 @@ print(tekst_format)
 
 #  	Mam na imię Radek.
 #  i lubię pythona
+
+starszy = "Witaj %s"  # %s - string
+print(starszy % imie)  # Witaj Radek
