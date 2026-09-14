@@ -65,3 +65,7 @@ tekst_format = f"\tMam na imię {imie}.\n i lubię pythona.\b"
 print(tekst_format)
 # \t - tabulator
 # \n - nowa linia
+# \b - backspace
+
+#  	Mam na imię Radek.
+#  i lubię pythona
