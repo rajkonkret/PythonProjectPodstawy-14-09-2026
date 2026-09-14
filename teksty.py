@@ -28,3 +28,8 @@ print(tekst[1])  # i
 print(tekst[3])  # a
 print(tekst[6])  # Ś
 
+print(tekst.index("Ś"))  # 6
+print(tekst.index("e"))  # 9, pierwsza od lewej
+
+print(tekst.count("e")) # wystepuje 2 razy
+
