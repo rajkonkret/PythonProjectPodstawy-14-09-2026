@@ -70,11 +70,14 @@ print(dict_small)  # {'x': 20, 'y': 30, 'z': '50'}
 # Podaj imię: Radek
 # Radek
 
-# napisac aplikacje kalkulator
-# input() zwraca str
-a = int(input("Podaj wartość a: "))
-b = input("Podaj wartość b: ")
-print(int(a) + float(b))
-# Podaj wartość a: 8
-# Podaj wartość b: 9
-# 17.0
+# # alt shift E - uruchomienie fragmentu kodu
+# # napisac aplikacje kalkulator
+# # input() zwraca str
+# a = int(input("Podaj wartość a: "))
+# b = input("Podaj wartość b: ")
+# print(int(a) + float(b))
+# # Podaj wartość a: 8
+# # Podaj wartość b: 9
+# # 17.0
+
+# napisac aplikację słownik pol-ang
