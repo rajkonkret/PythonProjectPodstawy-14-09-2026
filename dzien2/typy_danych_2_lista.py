@@ -73,3 +73,9 @@ print(lista_15[::-1])
 # [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 
 print(lista[-2:0:-1])  # ['Anna', 'Grzegorz', 'Zenek', 'Tomek']
+
+tablica = [[1, 2], [3, 4]]
+# numpy - tablice/macierze, pandas
+
+print(lista)
+# ['Radek', 'Tomek', 'Zenek', 'Grzegorz', 'Anna', 'Karolina']
