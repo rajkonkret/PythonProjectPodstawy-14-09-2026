@@ -113,3 +113,15 @@ print(f"{a=} {b=}")  # a=3 b=3
 
 b = 9
 print(f"{a=} {b=}")  # a=3 b=9
+
+lista2 = lista  # kopia adresu listy, referencji
+
+lista_copy = lista.copy()  # kopia eleemntów listy
+
+print(lista)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna', 'Karolina']
+print(lista2)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna', 'Karolina']
+
+lista.clear()  # kasuje wszystkie elementy z listy
+print(lista)  # []
+print(lista2)  # []
+print(lista_copy)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna', 'Karolina']
