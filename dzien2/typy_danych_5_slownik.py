@@ -67,3 +67,5 @@ print(dict_small)  # {'x': 20, 'y': 30, 'z': '50'}
 
 tekst = input("Podaj imię: ")
 print(tekst)
+# Podaj imię: Radek
+# Radek
