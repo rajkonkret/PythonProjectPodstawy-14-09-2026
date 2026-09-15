@@ -67,3 +67,14 @@ print(name1, name2, name3)  # Zenek ['Tomek', 'Marek'] Ania
 
 *name1, name2, name3 = tupla_imiona
 print(name1, name2, name3)  # ['Zenek', 'Tomek'] Marek Ania
+
+# sorted() - sortowanie
+print(sorted(tupla_imiona))
+# ['Ania', 'Marek', 'Tomek', 'Zenek']
+print(tupla_imiona) # ('Zenek', 'Tomek', 'Marek', 'Ania') bez zmian !
+
+lista =  list(tupla_imiona)
+print(lista)
+print(type(lista))
+# ['Zenek', 'Tomek', 'Marek', 'Ania']
+# <class 'list'>
