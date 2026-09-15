@@ -57,22 +57,22 @@ else:
 # jesli zarobki mniejsze niz 10000 -> podatek 0
 # dla pozostałych podatek 90% (0.9)
 
-zarobki = int(input("Podaj zzarobki: "))
-podatek = 0
-print(zarobki)
-
-# kolejność ma znaczenie
-if zarobki < 10_000:
-    podatek = 0
-elif zarobki < 40_000:
-    podatek = 0.2
-elif zarobki < 100_000:
-    podatek = 0.4
-else:
-    podatek = 0.9
-
-# 0.2 dla zarobków 10000 i mniej niz 40000
-print(f"Podatek wynosi: {zarobki * podatek:.2f} pln.")
+# zarobki = int(input("Podaj zzarobki: "))
+# podatek = 0
+# print(zarobki)
+#
+# # kolejność ma znaczenie
+# if zarobki < 10_000:
+#     podatek = 0
+# elif zarobki < 40_000:
+#     podatek = 0.2
+# elif zarobki < 100_000:
+#     podatek = 0.4
+# else:
+#     podatek = 0.9
+#
+# # 0.2 dla zarobków 10000 i mniej niz 40000
+# print(f"Podatek wynosi: {zarobki * podatek:.2f} pln.")
 # Podaj zzarobki: 56789
 # 56789
 # Podatek wynosi: 22715.600000000002 pln.
@@ -80,3 +80,18 @@ print(f"Podatek wynosi: {zarobki * podatek:.2f} pln.")
 # Podaj zzarobki: 56789
 # 56789
 # Podatek wynosi: 22715.60 pln.
+
+sum_zam = 170
+
+if sum_zam > 150:
+    rabat = 25
+else:
+    rabat = 0
+
+# Rabat wynosi: 25
+print(f"Rabat wynosi: {rabat}")
+
+# operator warunkowy
+rabat = 25 if sum_zam > 150 else 0
+print(f"Rabat wynosi: {rabat}") # Rabat wynosi: 25
+
