@@ -61,7 +61,10 @@ zarobki = int(input("Podaj zzarobki: "))
 podatek = 0
 print(zarobki)
 
+# kolejność ma znaczenie
 if zarobki < 10_000:
+    podatek = 0
+elif zarobki < 40_000:
     podatek = 0
 elif zarobki < 100_000:
     podatek = 0.4
