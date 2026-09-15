@@ -126,3 +126,21 @@ print(lista)  # []
 print(lista2)  # []
 print(lista_copy)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna', 'Karolina']
 
+liczby = [54, 999, 12.34, 34, 567, 999]
+print(liczby)  # [54, 999, 12.34, 34, 567, 999]
+
+liczby.sort()
+print(liczby)  # [12.34, 34, 54, 567, 999, 999]
+
+liczby.append("A")
+print(liczby)  # [12.34, 34, 54, 567, 999, 999, 'A']
+
+# liczby.sort() # TypeError: '<' not supported between instances of 'str' and 'int'
+print(ord("A"))  # 65 - kod znaku A
+
+print(lista_copy)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna', 'Karolina']
+lista_copy.sort()
+print(lista_copy)  # ['Anna', 'Kamil', 'Karolina', 'Sylwia', 'Tomek']
+
+lista_copy.sort(reverse=True)
+print(lista_copy)  # ['Tomek', 'Sylwia', 'Karolina', 'Kamil', 'Anna']
