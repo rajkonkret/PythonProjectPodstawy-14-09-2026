@@ -52,3 +52,26 @@ print(zbior.intersection(zbior_2))  # {18, 11, 44}
 print(zbior - zbior_2)  # {66, 777, 54, 22, 25}
 print(zbior.difference(zbior_2))  # {66, 777, 54, 22, 25}
 print(zbior_2.difference(zbior))  # {99, 12.34, 14, 52, 667, 62}
+
+# łaczy zbiór, zmienia bazowy
+zbior.update(zbior_2)
+print(zbior)  # {66, 777, 11, 12.34, 14, 18, 22, 25, 667, 99, 44, 52, 54, 62} zmiana oryginalnej kolekcji
+
+# difference_update(zbior_2)
+
+krotka = tuple(zbior)
+print(krotka)
+# (66, 777, 11, 12.34, 14, 18, 22, 25, 667, 99, 44, 52, 54, 62)
+
+lista = list(zbior)
+print(lista)
+# [66, 777, 11, 12.34, 14, 18, 22, 25, 667, 99, 44, 52, 54, 62]
+
+# in - sprawdzanie czy element istnieje w kolekcji
+
+# zbior jest hashowany, najszybsze wyszukiwanie
+print(667 in zbior)  # True
+print(777 in lista)  # True
+print(667 in krotka)  # True
+
+print("radek" in zbior_2)  # False
