@@ -31,4 +31,31 @@ print(tupla_imiona.count("Zenek"))
 
 print(len(tupla_imiona))  # długosc 4
 
+tup = 1, 2
 
+# a - pierwszy element
+# b - drugi element
+
+a = tup[0]
+b = tup[1]
+print(a)
+print(b)
+
+# rozpakowanie krotki
+a, b = tup
+print(a, b)  # 1 2
+
+# zamiana wartości miejscami
+a, b = b, a
+print(a, b)  # 2 1
+
+print(tupla_imiona)  # ('Zenek', 'Tomek', 'Marek', 'Ania')
+print(len(tupla_imiona))  # 4
+
+# name1, name2, name3
+# name1, name2, name3 = tupla_imiona
+# ValueError: too many values to unpack (expected 3, got 4)
+
+name1, name2, *name3 = tupla_imiona
+print(name1, name2, name3)
+# Zenek Tomek ['Marek', 'Ania']
