@@ -65,11 +65,18 @@ print(zarobki)
 if zarobki < 10_000:
     podatek = 0
 elif zarobki < 40_000:
-    podatek = 0
+    podatek = 0.2
 elif zarobki < 100_000:
     podatek = 0.4
 else:
     podatek = 0.9
 
 # 0.2 dla zarobków 10000 i mniej niz 40000
-print(f"Podatek wynosi: {zarobki * podatek} pln.")
+print(f"Podatek wynosi: {zarobki * podatek:.2f} pln.")
+# Podaj zzarobki: 56789
+# 56789
+# Podatek wynosi: 22715.600000000002 pln.
+
+# Podaj zzarobki: 56789
+# 56789
+# Podatek wynosi: 22715.60 pln.
