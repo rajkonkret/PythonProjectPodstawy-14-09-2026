@@ -125,3 +125,4 @@ lista.clear()  # kasuje wszystkie elementy z listy
 print(lista)  # []
 print(lista2)  # []
 print(lista_copy)  # ['Kamil', 'Tomek', 'Sylwia', 'Anna', 'Karolina']
+
