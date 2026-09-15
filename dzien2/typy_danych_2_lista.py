@@ -79,3 +79,15 @@ tablica = [[1, 2], [3, 4]]
 
 print(lista)
 # ['Radek', 'Tomek', 'Zenek', 'Grzegorz', 'Anna', 'Karolina']
+
+# podmiana elementu
+lista[2] = "Sylwia"
+print(lista)  # ['Radek', 'Tomek', 'Sylwia', 'Grzegorz', 'Anna', 'Karolina']
+
+# dopisanie na konkretnym miejscu(indexie)
+lista.insert(1, "Kamil")
+# ['Radek', 'Tomek', 'Sylwia', 'Grzegorz', 'Anna', 'Karolina']
+
+lista.append("Radek")
+print(lista)
+# ['Radek', 'Kamil', 'Tomek', 'Sylwia', 'Grzegorz', 'Anna', 'Karolina', 'Radek']
