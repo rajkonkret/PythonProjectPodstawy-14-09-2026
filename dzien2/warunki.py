@@ -93,5 +93,8 @@ print(f"Rabat wynosi: {rabat}")
 
 # operator warunkowy
 rabat = 25 if sum_zam > 150 else 0
-print(f"Rabat wynosi: {rabat}") # Rabat wynosi: 25
+print(f"Rabat wynosi: {rabat}")  # Rabat wynosi: 25
 
+# napisac zadanie test z...
+# try pytania
+# punktacja
