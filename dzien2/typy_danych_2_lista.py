@@ -92,3 +92,16 @@ lista.append("Radek")
 print(lista)
 # ['Radek', 'Kamil', 'Tomek', 'Sylwia', 'Grzegorz', 'Anna', 'Karolina', 'Radek']
 
+# usunięcie z listy, pierwszy od lewej
+lista.remove("Radek")
+print(lista)
+# ['Kamil', 'Tomek', 'Sylwia', 'Grzegorz', 'Anna', 'Karolina', 'Radek']
+
+# usunięcie po indeksie, zwraca usnięty element
+print(lista.pop(3))  # Grzegorz
+print(lista)
+
+print(lista.pop())  # Radek - usunie ostatni
+
+# sprawdzenie indexu elementu
+print(lista.index("Sylwia"))  # index numer 2
