@@ -98,3 +98,10 @@ print(f"Rabat wynosi: {rabat}")  # Rabat wynosi: 25
 # napisac zadanie test z...
 # try pytania
 # punktacja
+
+odp = input("Czy pada deszcz?")
+
+if odp.strip().casefold() == "tak".strip().casefold():
+    print("Weź parasol")
+else:
+    print("Idz")
