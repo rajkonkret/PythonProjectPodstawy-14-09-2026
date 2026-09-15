@@ -92,6 +92,10 @@ print(dict_small)  # {'x': 20, 'y': 30, 'z': '50'}
 # to: {pol_ang.get(odp.strip().lower(), "nie ma w słowniku")}
 # """)
 #
+# print(f"""
+# Prawidłowa odpowiedź dla: {odp}
+# to: {pol_ang.get(odp.strip().casefold(), "nie ma w słowniku")}
+# """)
 # # Prawidłowa odpowiedź dla:  Kot
 # # to: cat
 
