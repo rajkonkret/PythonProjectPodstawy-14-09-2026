@@ -62,3 +62,8 @@ print(dictionary)
 dict_small = {'x': 20}
 dict_small.update([("y", 30), ("z", "50")])
 print(dict_small)  # {'x': 20, 'y': 30, 'z': '50'}
+
+# input() - mozliwosc wprowadzania dancyh
+
+tekst = input("Podaj imię: ")
+print(tekst)
