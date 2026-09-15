@@ -56,5 +56,8 @@ print(lista[12:26])  # []
 
 print(lista[:])  # ['Radek', 'Tomek', 'Zenek', 'Grzegorz', 'Anna', 'Karolina']
 
-print(lista[-2:0])
-
+# ['Radek', 'Tomek', 'Zenek', 'Grzegorz', 'Anna', 'Karolina']
+#     0        1        2         3          4        5
+#     -6       -5       -4        -3         -2       -1
+print(lista[-2:0])  # [] -> [4:0]
+print(lista[0:-2])  # ['Radek', 'Tomek', 'Zenek', 'Grzegorz']
