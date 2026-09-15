@@ -163,3 +163,11 @@ print(lista1)  # ['P', 'y', 't', 'h', ' ', 'o', 'n', '.']
 
 lista2 = [tekst]
 print(lista2)  # ['Pyth on.']
+
+print(tekst.split())  # domyślnie po spacji
+# ['Pyth', 'on.']
+
+krotka = tuple(lista_copy)
+print(krotka)
+# ('Tomek', 'Sylwia', 'Karolina', 'Kamil', 'Anna')
+print(type(krotka))  # <class 'tuple'>
