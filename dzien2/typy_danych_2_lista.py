@@ -144,3 +144,22 @@ print(lista_copy)  # ['Anna', 'Kamil', 'Karolina', 'Sylwia', 'Tomek']
 
 lista_copy.sort(reverse=True)
 print(lista_copy)  # ['Tomek', 'Sylwia', 'Karolina', 'Kamil', 'Anna']
+
+# slicowaie, podmiana, append, wypisanie ostatniego
+liczby = [54, 999, 12.34, 34, 567, 999]
+dane = liczby[0:3]
+print(dane)
+dane.sort()
+print(dane)  # [12.34, 54, 999]
+print(liczby[-1])  # 999
+
+tekst = "Pyth on."
+
+# [], list()
+
+# rozpakowanie sekwencji
+lista1 = list(tekst)
+print(lista1)  # ['P', 'y', 't', 'h', ' ', 'o', 'n', '.']
+
+lista2 = [tekst]
+print(lista2)  # ['Pyth on.']
