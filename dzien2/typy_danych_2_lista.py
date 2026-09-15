@@ -91,3 +91,4 @@ lista.insert(1, "Kamil")
 lista.append("Radek")
 print(lista)
 # ['Radek', 'Kamil', 'Tomek', 'Sylwia', 'Grzegorz', 'Anna', 'Karolina', 'Radek']
+
