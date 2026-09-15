@@ -99,9 +99,33 @@ print(f"Rabat wynosi: {rabat}")  # Rabat wynosi: 25
 # try pytania
 # punktacja
 
-odp = input("Czy pada deszcz?")
+punkty = 0
+odp = input("Czy pada deszcz? ")
 
 if odp.strip().casefold() == "tak".strip().casefold():
     print("Weź parasol")
+    # punkty = punkty + 1
+    punkty += 1
 else:
     print("Idz")
+
+odp = input("Podaj stolicę Polski: ")
+
+if odp.strip().casefold() == "Warszawa".strip().casefold():
+    print("Odpowiedź prawidłowa")
+    punkty += 1
+else:
+    print("Poszukaj w książce")
+
+print("Punkty:", punkty)
+# spam += 1    spam = spam + 1
+# spam -= 1    spam = spam - 1
+# spam *= 1    spam = spam * 1
+# spam /= 1    spam = spam / 1
+# spam %= 1    spam = spam % 1
+
+# Czy pada deszcz? tak
+# Weź parasol
+# Podaj stolicę Polski: Warszawa
+# Odpowiedź prawidłowa
+# Punkty: 2
