@@ -26,3 +26,29 @@ if odp:
     print("Brawo")
 
 print("Dalsza część programu")
+
+odp = "Radek"  # True
+
+if odp:  # bool(odp)
+    print("Dane zostały wczytane")
+
+if odp == "Radek":
+    print("Jestem Radek") # Jestem Radek
+
+odp = 0
+if odp:
+    print("Działa")
+else: # wartość domyslna
+    print("Zero -> False")
+
+# a = "Radek"
+a = "Tomek"
+
+if a =="Radek":
+    print("OK")
+elif a == "Tomek":
+    print("Też OK")
+else:
+    print("Nie znam Cię")
+
+# Też OK
