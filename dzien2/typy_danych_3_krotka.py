@@ -56,6 +56,14 @@ print(len(tupla_imiona))  # 4
 # name1, name2, name3 = tupla_imiona
 # ValueError: too many values to unpack (expected 3, got 4)
 
+# * dowolna ilosc elementów
+# worek na pozostałe dane
 name1, name2, *name3 = tupla_imiona
 print(name1, name2, name3)
 # Zenek Tomek ['Marek', 'Ania']
+
+name1, *name2, name3 = tupla_imiona
+print(name1, name2, name3)  # Zenek ['Tomek', 'Marek'] Ania
+
+*name1, name2, name3 = tupla_imiona
+print(name1, name2, name3)  # ['Zenek', 'Tomek'] Marek Ania
