@@ -80,4 +80,34 @@ print(dict_small)  # {'x': 20, 'y': 30, 'z': '50'}
 # # Podaj wartość b: 9
 # # 17.0
 
-# napisac aplikację słownik pol-ang
+
+# # napisac aplikację słownik pol-ang
+# pol_ang = {'pies': 'dog', "kot": "cat", "dach": "roof"}
+# print("Znam takie słowka:", pol_ang.keys() )
+#
+# odp = input("podaj słówko do przetłumaczenia: ")
+#
+# print(f"""
+# Prawidłowa odpowiedź dla: {odp}
+# to: {pol_ang.get(odp.strip().lower(), "nie ma w słowniku")}
+# """)
+#
+# # Prawidłowa odpowiedź dla:  Kot
+# # to: cat
+
+print(chr(223))  # ß
+
+name1 = "GROSS"
+name2 = "groß"
+
+print(name1.lower())
+print(name2.lower())
+# gross
+# groß
+
+print(name1.casefold())
+print(name2.casefold())
+# gross
+# gross
+
+print(name1.casefold() == name2.casefold())  # True
