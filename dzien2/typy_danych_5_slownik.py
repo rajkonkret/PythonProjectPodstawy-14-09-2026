@@ -65,7 +65,16 @@ print(dict_small)  # {'x': 20, 'y': 30, 'z': '50'}
 
 # input() - mozliwosc wprowadzania dancyh
 
-tekst = input("Podaj imię: ")
-print(tekst)
+# tekst = input("Podaj imię: ")
+# print(tekst)
 # Podaj imię: Radek
 # Radek
+
+# napisac aplikacje kalkulator
+# input() zwraca str
+a = int(input("Podaj wartość a: "))
+b = input("Podaj wartość b: ")
+print(int(a) + float(b))
+# Podaj wartość a: 8
+# Podaj wartość b: 9
+# 17.0
