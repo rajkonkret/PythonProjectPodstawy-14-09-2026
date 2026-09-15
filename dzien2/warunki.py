@@ -33,18 +33,18 @@ if odp:  # bool(odp)
     print("Dane zostały wczytane")
 
 if odp == "Radek":
-    print("Jestem Radek") # Jestem Radek
+    print("Jestem Radek")  # Jestem Radek
 
 odp = 0
 if odp:
     print("Działa")
-else: # wartość domyslna
+else:  # wartość domyslna
     print("Zero -> False")
 
 # a = "Radek"
 a = "Tomek"
 
-if a =="Radek":
+if a == "Radek":
     print("OK")
 elif a == "Tomek":
     print("Też OK")
@@ -52,3 +52,18 @@ else:
     print("Nie znam Cię")
 
 # Też OK
+
+# pobrac zarobki
+# jesli zarobki mniejsze niz 10000 -> podatek 0
+# dla pozostałych podatek 90% (0.9)
+
+zarobki = int(input("Podaj zzarobki: "))
+podatek = 0
+print(zarobki)
+
+if zarobki < 10000:
+    podatek = 0
+else:
+    podatek = 0.9
+
+print(f"Podatek wynosi: {zarobki * podatek} pln.")
