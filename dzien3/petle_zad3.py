@@ -21,19 +21,25 @@ while licznik < 10:
 
 # kalkulator
 
-while True:
-    print(f"""
-1. Dodawanie
-5. Koniec""")
-    odp = input("Wybierz opcje menu: ")
+# while True:
+#     print(f"""
+# 1. Dodawanie
+# 5. Koniec""")
+#     odp = input("Wybierz opcje menu: ")
+#
+#     if odp == "5":
+#         break
+#
+#     a = int(input("Liczba a:"))
+#     b = int(input("Liczba b:"))
+#
+#     if odp == "1":
+#         print(a + b)
+#     else:
+#         print("nie ma")
 
-    if odp == "5":
-        break
+my_list = [1, 5, 2, 5, 90, 3, 5, 6, 7, 91]
 
-    a = int(input("Liczba a:"))
-    b = int(input("Liczba b:"))
-
-    if odp == "1":
-        print(a + b)
-    else:
-        print("nie ma")
+while 5 in my_list:
+    my_list.remove(5)
+print(my_list)
