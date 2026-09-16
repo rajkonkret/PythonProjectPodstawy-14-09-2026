@@ -33,3 +33,14 @@ for k, v in dictionary.items():
     print(k, v, sep="<==>")
 # imie<==>Radek
 # nazwisko<==>Kowalski
+
+pol_ang = {'pies': 'dog', "kot": "cat", "dach": "roof"}
+
+ang_pol = {}  # pusty słownik
+for k, v in pol_ang.items():
+    ang_pol[v] = k
+
+print(ang_pol)  # {'dog': 'pies', 'cat': 'kot', 'roof': 'dach'}
+
+print({v: k for k, v in pol_ang.items()})
+# {'dog': 'pies', 'cat': 'kot', 'roof': 'dach'}
