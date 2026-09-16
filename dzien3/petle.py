@@ -52,4 +52,40 @@ for c in lista3:
 # 6
 # 8
 
+
 imiona = ['Sylwia', 'Marek', "Tomek", 'Anna']
+
+for o in imiona:
+    print(o)
+# Sylwia
+# Marek
+# Tomek
+# Anna
+
+# 0 Sylwia
+for o in imiona:
+    print(imiona.index(o), o)
+# 0 Sylwia
+# 1 Marek
+# 2 Tomek
+# 3 Anna
+
+# enumerate()
+for p in enumerate(imiona):
+    print(p)
+    # (0, 'Sylwia')
+    # (1, 'Marek')
+    # (2, 'Tomek')
+    # (3, 'Anna') -> 0 Anna
+
+for i, o in enumerate(imiona):
+    print(i, o)
+# 0 Sylwia
+# 1 Marek
+# 2 Tomek
+# 3 Anna
+
+imiona = ['Sylwia', 'Marek', "Tomek", 'Anna']
+wiek = [34, 43, 23, 19]
+
+# Sylwia 34
