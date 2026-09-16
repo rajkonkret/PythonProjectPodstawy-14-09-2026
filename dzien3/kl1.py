@@ -30,14 +30,34 @@ print(cz1.imie)  # Radek
 print(cz1.wiek)  # 60
 print(cz1.plec)  # m
 
-cz1.wypisz_wiek() # Mam na imię: Radek
+cz1.wypisz_wiek()  # Mam na imię: Radek
 
 cz2 = Human("Anna", 45)
 print(cz2.imie)
 print(cz2.wiek)
 print(cz2.plec)
 cz2.wypisz_wiek()
+
+
 # Anna
 # 45
 # k
 # Mam na imię: Anna
+
+# dziedzczenie
+
+class Student(Human):
+    """
+    Dziedziczy po klasie Human
+    """
+
+    def wypisz_oceny(self):
+        print("Moje oceny: 5, 5, 6")
+
+
+student1 = Student("Kasia", 25)
+student1.wypisz_wiek()
+# Mam na imię: Kasia
+student1.wypisz_oceny()
+# Moje oceny: 5, 5, 6
+# wypisz_imie()
