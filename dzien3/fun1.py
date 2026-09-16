@@ -49,6 +49,15 @@ def odejmij(a=0, b=0, c=0):
     return a - b - c  # zwraca wynik
     # return a, b, c # zwraca krotke
 
+
 print(odejmij(1, 2, 3))  # -4
 wyn = odejmij(5, 90)
 print(wyn)  # -85
+
+# funkcja lambda
+# skrócony zapis funkcji
+# zwraca wynik
+
+odejmij4 = lambda a, b, c=0: a - b - c
+wyn = odejmij4(4, 9)
+print(wyn)  # -5
