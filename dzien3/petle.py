@@ -28,3 +28,15 @@ for i in range(10):
 # 6 parzysta
 # 8 parzysta
 
+lista3 = []
+# parzyste dodac do listy
+for i in range(10):
+    if i % 2 == 0:
+        lista3.append(i)
+
+print(lista3)  # [0, 2, 4, 6, 8]
+
+# list comprehensions
+lista3 = [j for j in range(10) if j % 2 == 0]
+print(lista3)  # [0, 2, 4, 6, 8]
+
