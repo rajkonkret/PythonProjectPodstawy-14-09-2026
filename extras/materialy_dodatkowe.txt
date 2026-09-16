@@ -130,3 +130,11 @@ pyinstaller --onefile --noconsole .\dzien3\okno1.py
 
 # nuitka
 # GralVM
+
+# dodatkowa nauka
+https://www.hackerrank.com/challenges/capitalize/forum
+https://pl.altapps.net/soft/hackerrank-com
+https://www.w3schools.com/python/python_variables.asp
+
+https://kariera.comarch.pl/blog/clean-code-15-krokow-do-stworzenia-czystego-kodu/
+https://fiszki-python.cytr.us/
