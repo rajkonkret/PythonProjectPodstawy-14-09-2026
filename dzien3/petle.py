@@ -89,3 +89,23 @@ imiona = ['Sylwia', 'Marek', "Tomek", 'Anna']
 wiek = [34, 43, 23, 19]
 
 # Sylwia 34
+for o in imiona:
+    print(imiona.index(o), wiek[imiona.index(o)])
+
+imiona = ['Sylwia', 'Marek', "Tomek", 'Anna', "Kamila"]
+wiek = [34, 43, 23, 19]
+
+# zip() - łączenie kolekcji
+for i in zip(imiona, wiek):
+    print(i)
+# ('Sylwia', 34)
+# ('Marek', 43)
+# ('Tomek', 23)
+# ('Anna', 19)
+
+for i, w in zip(imiona, wiek):
+    print(i, w)
+# Sylwia 34
+# Marek 43
+# Tomek 23
+# Anna 19
