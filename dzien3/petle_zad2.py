@@ -28,3 +28,8 @@ for i in dictionary.items():
 # nazwisko <==> Kowalski
 for k, v in dictionary.items():
     print(k, "<==>", v)
+
+for k, v in dictionary.items():
+    print(k, v, sep="<==>")
+# imie<==>Radek
+# nazwisko<==>Kowalski
