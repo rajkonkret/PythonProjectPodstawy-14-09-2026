@@ -118,5 +118,6 @@ spam *= 1    spam = spam * 1
 spam /= 1    spam = spam / 1
 spam %= 1    spam = spam % 1
 
+# wyeksportowanie uzytych w projekcie bibliotek
 pip freeze > requirements.txt
 pip install -r .\requirements.txt
