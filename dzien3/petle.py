@@ -40,3 +40,6 @@ print(lista3)  # [0, 2, 4, 6, 8]
 lista3 = [j for j in range(10) if j % 2 == 0]
 print(lista3)  # [0, 2, 4, 6, 8]
 
+# kolejne elementy listy
+for i in range(len(lista3)):
+    print(lista3[i])
