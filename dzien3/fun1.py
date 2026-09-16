@@ -39,5 +39,16 @@ dodaj3(1, c=34, b=99)  # 134
 print(50 * "-")
 wyn = dodaj3(1, 2, 3)
 print(wyn)
+
+
 # 6
 # None
+
+# funkcje zwracające wynik
+def odejmij(a=0, b=0, c=0):
+    return a - b - c  # zwraca wynik
+    # return a, b, c # zwraca krotke
+
+print(odejmij(1, 2, 3))  # -4
+wyn = odejmij(5, 90)
+print(wyn)  # -85
