@@ -43,3 +43,13 @@ print(lista3)  # [0, 2, 4, 6, 8]
 # kolejne elementy listy
 for i in range(len(lista3)):
     print(lista3[i])
+
+for c in lista3:
+    print(c)
+# 0
+# 2
+# 4
+# 6
+# 8
+
+imiona = ['Sylwia', 'Marek', "Tomek", 'Anna']
