@@ -37,3 +37,7 @@ dodaj3(1, c=34, b=99)  # 134
 
 # dodaj3(a=90, 3, 4) # SyntaxError: positional argument follows keyword argument
 print(50 * "-")
+wyn = dodaj3(1, 2, 3)
+print(wyn)
+# 6
+# None
